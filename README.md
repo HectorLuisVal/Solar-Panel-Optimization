@@ -1,6 +1,6 @@
 <table>
 
-<td><img src="https://gist.githubusercontent.com/robertogl/e0115dc303472a9cfd52bbbc8edb7665/raw/SolarPanel.png"  width=500 /></td>
+<td><img src="Images/SolarPanel3-Image.png"  width=500 /></td>
 
 <td><p><h1> 
    Solar Panel Team #3 - Maximizing Solar Panel Output for a Fixed Area

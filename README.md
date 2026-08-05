@@ -24,9 +24,12 @@ In this project, we're using MATLAB to identify the best tilt angle and shape fo
 - Leo Kuraoka - Analysis & Visualization Lead
 
 # Getting Started 
-...
+For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 
 
 ### Project Files
+
+### Tool Boxes
+Optimization Toolbox
 
 
 ### How to Run

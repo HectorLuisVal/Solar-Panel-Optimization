@@ -2,13 +2,13 @@
 
 ## Group project for MATLAB maximizing solar panel output for a fixed area 
 
-Hello, and welcome! This repo will carry our joint project between Hector Valenzuela, Leo Kuraoka, and Ty Schoevers.
-We're using MATLAB to find the best tilt angle and shape for a solar panel with a fixed area of 2 square meters, aiming to get the most energy output possible. This project applies MATLAB's optimization workflow to a real-world engineering problem, then visualizes the results with a 3D surface plot.
+Hello, and welcome! This repo will carry out our joint project between Hector Valenzuela, Leo Kuraoka, and Ty Schoevers.
+We're using MATLAB to find the best tilt angle and shape for a solar panel with a fixed area of 2 square meters, aiming to Maximize the energy output of the solar panel. This project applies MATLAB's optimization workflow to a real-world engineering problem, then visualizes the results with a 3D surface plot.
 
 ### Team
 - Hector Valenzuela
-- Leo Kuraoka
-- Ty Schoevers
+- Leo Kuraoka (
+- Ty Schoevers (Project Manager)
 
 # Getting Started 
 ...
@@ -20,9 +20,9 @@ We're using MATLAB to find the best tilt angle and shape for a solar panel with 
 ...
 
 ### Results
-- Optimal tilt angle: [value]°
-- Optimal aspect ratio: [value]
-- Maximum energy output: [value]
+- Optimal tilt angle: 37.50°
+- Optimal aspect ratio: 1.00
+- Maximum energy output: 1965.93 W/m^2
 
 ### Resources
 - [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)

@@ -2,10 +2,12 @@
 
 <td><img src="https://gist.githubusercontent.com/robertogl/e0115dc303472a9cfd52bbbc8edb7665/raw/SolarPanel.png"  width=500 /></td>
 
-<td><p><h1> Solar Panel Team#3 - Maximizing Solar Panel Output for a Fixed Area</h1></p>
+<td><p><h1> 
+   Solar Panel Team #3 - Maximizing Solar Panel Output for a Fixed Area
+   </h1></p>
 
 <p> 
-Utilizing MATLAB to optimize solar panel geometry and maximize solar irradiance and energy production
+ Solution to MathWorks Workplace Challenge 
 </p>
 
 </table>
@@ -13,18 +15,17 @@ Utilizing MATLAB to optimize solar panel geometry and maximize solar irradiance 
 ## MathWorks Workplace Challenge - Maximizing Solar Panel Output for a Fixed Area
 Hello, and welcome! This repo will carry out the joint project between Hector Valenzuela, Leo Kuraoka, and Ty Schoevers. Our motivation for this project stemmed from our team's collective interest in developing modern energy grid systems and the desire to contribute to the scalability of renewable energy technology. 
 
+# Project Details 
 In this project, we're using MATLAB to identify the best tilt angle and shape for a solar panel with a fixed area of 2 square meters. The aim is to maximize energy output of the solar panel given a variety of constraints. This project applies MATLAB's optimization workflow to a real-world engineering problem, then visualizes the results with a 3D surface plot.
 
-
-
+For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 
 
 ### Team/Roles
 - Ty Schoevers - Project Manager
 - Hector Valenzuela - MATLAB Modeling Lead
 - Leo Kuraoka - Analysis & Visualization Lead
 
-# Getting Started 
-For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 
+### Project Solution Instructions
 
 ### Project Files
 

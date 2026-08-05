@@ -14,7 +14,7 @@ We're using MATLAB to find the best tilt angle and shape for a solar panel with 
 ...
 
 ### Project Files
-... rfrvrrrv
+
 
 ### How to Run
 ...
@@ -23,3 +23,9 @@ We're using MATLAB to find the best tilt angle and shape for a solar panel with 
 - Optimal tilt angle: [value]°
 - Optimal aspect ratio: [value]
 - Maximum energy output: [value]
+
+### Resources
+- [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)
+- [Optimization Onramp](https://matlabacademy.mathworks.com/details/optimization-onramp/optim)
+- [problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359)
+- [Surface Plot](https://www.mathworks.com/help/matlab/ref/surf.html)

@@ -32,9 +32,14 @@ For this project MATLAB is needed to run the live script. To run the code the **
 ...
 
 ## Results
+
+![](Images/Surf-Plot-Model1.png)
+
 - Optimal tilt angle: 37.50°
 - Optimal aspect ratio: 1.00
 - Maximum energy output: 1965.93 W/m^2
+
+
 
 ## References
 - [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)

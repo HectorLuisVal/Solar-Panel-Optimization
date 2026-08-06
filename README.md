@@ -18,19 +18,26 @@ Hello, and welcome! This repo will carry out the joint project between Hector Va
 # Project Description 
 In this project, we're using MATLAB to identify the best tilt angle and shape for a solar panel with a fixed area of 2 square meters. The aim is to maximize energy output of the solar panel given a variety of constraints. This project applies MATLAB's optimization workflow to a real-world engineering problem, then visualizes the results with a 3D surface plot.
 
-For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 
-![](Images/Equation_SolarPanel.png)
 ### Team/Roles
 - Ty Schoevers - Project Manager
 - Hector Valenzuela - MATLAB Modeling Lead
 - Leo Kuraoka - Analysis & Visualization Lead
 
+
+For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 
+![](Images/Equation_SolarPanel.png)
+
+## Model 1:
+
+
+
+
 ### How to Run 
 ...
 
 ### Project Files
-[Model 1](SolarPanel_Final_Model1.mlx): Fixed Constraints 
-
+[Model-1_LiveScript](SolarPanel_Final_Model1.mlx)
+[Model-1_Pdf]()
 ## Results
 
 ![](Images/Surf-Plot-Model1.png)
@@ -57,5 +64,5 @@ Hector Valenzuela:
 - [LinkedIn](https://www.linkedin.com/in/hector-luis-valenzuela/)
 
 Leo Kuraoka:
-- Email:
+- Email: leokuraoka2@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/leo-kuraoka-5ab2171b3/)

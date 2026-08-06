@@ -41,8 +41,8 @@ For this project, the Solar Irradiance/Energy Production formula has been given 
 ...
 
 ### Project Files
-- [Model-1_LiveScript](SolarPanel_Final_Model1.mlx)
-- [Model-1_Pdf]()
+- [Model-1_LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
+- [Model-1_Pdf](reports/SolarPanel_Final_Model1.pdf)
 ## Results
 
 ![](Images/Surf-Plot-Model1.png)

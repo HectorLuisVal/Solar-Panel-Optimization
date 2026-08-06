@@ -13,7 +13,7 @@
 </table>
 
 ## MathWorks Workplace Challenge - Maximizing Solar Panel Output for a Fixed Area
-Hello, and welcome! This repo will carry out the joint project between Hector Valenzuela, Leo Kuraoka, and Ty Schoevers. Our motivation for this project stemmed from our team's collective interest in developing modern energy grid systems and the desire to contribute to the scalability of renewable energy technology. 
+Hello, and welcome! This repo will carry out the joint project between Hector Valenzuela, Leo Kuraoka, and Ty Schoevers. Our motivation for this project stemmed from our team's collective desire in developing modern energy grid systems and a interest in creating tools for scalability of renewable energy technology. 
 
 # Project Description 
 In this project, we're using MATLAB to identify the best tilt angle and shape for a solar panel with a fixed area of 2 square meters. The aim is to maximize energy output of the solar panel given a variety of constraints. This project applies MATLAB's optimization workflow to a real-world engineering problem, then visualizes the results with a 3D surface plot.
@@ -23,9 +23,14 @@ In this project, we're using MATLAB to identify the best tilt angle and shape fo
 - Hector Valenzuela - MATLAB Modeling Lead
 - Leo Kuraoka - Analysis & Visualization Lead
 
-
+#### Disclaimer: 
 For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 
+
+For this project, the Solar Irradiance/Energy Production formula has been given below. 
 ![](Images/Equation_SolarPanel.png)
+
+
+
 
 ## Model 1: Fixed Constraints
 
@@ -49,11 +54,13 @@ For this project MATLAB is needed to run the live script. To run the code the **
 
 
 ## References
+- [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area)
+- [GitHub Repository Template](https://github.com/kathyz95/Classroom-Projects-Solution-Template/)
 - [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)
 - [Optimization Onramp](https://matlabacademy.mathworks.com/details/optimization-onramp/optim)
 - [problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359)
 - [Surface Plot](https://www.mathworks.com/help/matlab/ref/surf.html)
-
+- [Control Panel](https://www.mathworks.com/help/matlab/matlab_prog/add-interactive-controls-to-a-live-script.html)
 # Contact 
 Ty Schoevers: 
 - Email: ty.schoevers@gmail.com 

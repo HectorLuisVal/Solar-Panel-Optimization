@@ -22,6 +22,7 @@ In this project, we're using MATLAB to identify the best tilt angle and shape fo
 - Ty Schoevers - Project Manager
 - Hector Valenzuela - MATLAB Modeling Lead
 - Leo Kuraoka - Analysis & Visualization Lead
+#### [Team Agreement](reports/MathWorks_SolarPanel#3_TeamAgreement.pdf)
 
 #### Disclaimer: 
 For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 
@@ -35,10 +36,8 @@ For this project, the Solar Irradiance/Energy Production formula has been given 
 ## Model 1: Fixed Constraints
 
 ### Project Files
-Model 1: Fixed Constraints
+- [Report](reports/SolarPanel_Final_Model1.pdf)
 - [MATLAB LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
-- [Reports](reports/SolarPanel_Final_Model1.pdf)
-
 
 
 ### How to Run 

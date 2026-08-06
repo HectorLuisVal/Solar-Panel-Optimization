@@ -34,17 +34,19 @@ For this project, the Solar Irradiance/Energy Production formula has been given 
 
 ## Model 1: Fixed Constraints
 
+### Project Files
+Model 1: Fixed Constraints
+- [MATLAB LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
+- [Reports](reports/SolarPanel_Final_Model1.pdf)
 
 
 
 ### How to Run 
 ...
 
-### Project Files
-- [Model-1_LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
-- [Model-1_Pdf](reports/SolarPanel_Final_Model1.pdf)
-## Results
 
+   
+## Results
 ![](Images/Surf-Plot-Model1.png)
 
 - Optimal tilt angle: 37.50°

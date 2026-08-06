@@ -27,7 +27,7 @@ In this project, we're using MATLAB to identify the best tilt angle and shape fo
 For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 
 ![](Images/Equation_SolarPanel.png)
 
-## Model 1:
+## Model 1: Fixed Constraints
 
 
 

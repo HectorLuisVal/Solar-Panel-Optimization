@@ -22,7 +22,7 @@ In this project, we're using MATLAB to identify the best tilt angle and shape fo
 - Ty Schoevers - Project Manager
 - Hector Valenzuela - MATLAB Modeling Lead
 - Leo Kuraoka - Analysis & Visualization Lead
-#### [Team Agreement](reports/MathWorks_SolarPanel#3_TeamAgreement.pdf)
+[Team Agreement](reports/MathWorks_SolarPanel#3_TeamAgreement.pdf)
 
 #### Disclaimer: 
 For this project MATLAB is needed to run the live script. To run the code the **Optimization Toolbox™** is needed. 

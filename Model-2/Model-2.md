@@ -47,9 +47,17 @@ To solve this problem, the approach was to set up **Two Initial Guesses** around
 
 Note: This section of code can be improved by increasing and automating the amount of Initial Guesses to account for more local maximums when expanding and varying the constraints. 
 
-Step 4: Output the Results
+#### Step 4: Output the Results
 **Plot E(θ, r)** to visualize the energy as a surface plot using *meshgrid* and [surf](https://www.mathworks.com/help/matlab/ref/surf.html). Plot the optimal tilt angle and aspect ratio, and corresponding energy output onto the grid; the absolute maximum of the surface plot should align with the optimal point. Finally, print the optimal tilt angle and aspect ratio, and the Maximum energy output.
 
+- Create Grid Values for Tilt Angle and Aspect Ratio using meshgrid
+- Generate energy grid values that are dependent on θ & r.
+- Create the Surface Plot using the surf function
+- Add shading that illustrate the gradual change in energy output using shading and colorbar functions
+- Set Axis limits for the plot (they can be equal to or greater then constraints)
+- Label the plots
+- Plot the optimal point on the surface plot
+- Print Results
 
 ### Project Files
 - [Model-2 Report](SolarPanel3_Final_Model2.pdf)

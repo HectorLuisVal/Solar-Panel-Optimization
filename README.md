@@ -40,11 +40,11 @@ To approach this problem recognize that the Solar Energy formula is dependent on
 - The available Area (A) for installation
 
 As the functions η(θ), sunIntensity(θ), & f(r) act non-linearly; finding the Maximum Energy Output under any constraints would be numerically intensive and non-intuitive. Through MATLAB's
-[problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) the process of finding the optimal Tilt Angle (θ) and Aspect Ratio (r) to deliver **Maximum Energy Output** can be simplified and somewhat automated. 
+[problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) the process of finding the optimal Tilt Angle (θ) and Aspect Ratio (r) to deliver **Maximum Energy Output** can be simplified. 
+
+Constructing a 3D [surf](https://www.mathworks.com/help/matlab/ref/surf.html) plot of the Energy formula can act as a form of verifying results
 
 
-
-In order to verify these results, constructing a 3D [surf](https://www.mathworks.com/help/matlab/ref/surf.html) plot of the Energy formula 
 
 #### Disclaimer: 
 For this project MATLAB R2026a was used to run the live script. To run the code the **Optimization Toolbox™** is needed. 
@@ -62,14 +62,19 @@ For this project MATLAB R2026a was used to run the live script. To run the code 
 - [MATLAB LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
    
 ## Results
-Given the following 
-![](Images/Surf-Plot-Model1.png)
 
+Following the MATLAB LiveScript and the listed constraints should give the following results: 
 - Optimal tilt angle: 37.50°
 - Optimal aspect ratio: 1.00
 - Maximum energy output: 1965.93 W/m^2
 
+![](Images/Surf-Plot-Model1.png)
+
+
 # Model 2: Scalable Constraints 
+
+
+![](Images/Problem-Surf-Plot-Model2.png)
 
 ### Project Files
 - [Report](reports/SolarPanel3_Final_Model2.pdf)

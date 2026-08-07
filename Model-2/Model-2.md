@@ -3,7 +3,7 @@
 The purpose of this model is to find the maximum energy output when constraints can be varied. This allows for greater flexibility and practicality. 
 
 ## Instructions 
-### THE CODE IS IN [Model-2 Report](SolarPanel3_Final_Model2.pdf)
+### THE CODE IS IN [Model-2 Report](SolarPanel3_Final_Model2_Leo.pdf)
 
 
 #### Step 1: Define the Objective Function
@@ -65,8 +65,8 @@ Checklist:
 - Print Results
 
 ### Project Files
-- [Model-2 Report](Model-2/SolarPanel3_Final_Model2_Leo.pdf)
-- [Model-2 MATLAB LiveScript](Model-2/SolarPanel3_Final_Model2_Leo.mlx)
+- [Model-2 Report](SolarPanel3_Final_Model2_Leo.pdf)
+- [Model-2 MATLAB LiveScript](SolarPanel3_Final_Model2_Leo.mlx)
 
 ## Results
 Through MATLAB's Optimization Toolbox™, Model 2 produced values consist of the maximum energy output. This can be seen through the optimal point plot aligning with the highest part of the surface plot representing the function  in spite of varying constraints. 

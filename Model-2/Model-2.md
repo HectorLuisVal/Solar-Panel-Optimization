@@ -65,8 +65,8 @@ Checklist:
 - Print Results
 
 ### Project Files
-- [Model-2 Report](SolarPanel3_Final_Model2.pdf)
-- [Model-2 MATLAB LiveScript](SolarPanel3_Final_Model2.mlx)
+- [Model-2 Report](Model-2/SolarPanel3_Final_Model2_Leo.pdf)
+- [Model-2 MATLAB LiveScript](Model-2/SolarPanel3_Final_Model2_Leo.mlx)
 
 ## Results
 Through MATLAB's Optimization Toolbox™, Model 2 produced values consist of the maximum energy output. This can be seen through the optimal point plot aligning with the highest part of the surface plot representing the function  in spite of varying constraints. 
@@ -76,12 +76,21 @@ By following the Instructions/MATLAB LiveScript and using these given constraint
 - Tilt Angle: 90° ≤ θ ≤ 180°
 - Aspect Ratio: 0 ≤ r ≤ 10
 
-Model 2 should output the following results:
+Model 2 will output the following results:
 
-    In doing so, the model demonstrates the ability to find the optimal Tilt Angle and Aspect Ratio to deliver the maximum energy output for a solar panel in a variety of situations. 
-By moving the sliders to the new constraints: 
+![](../Images/Model2-Results.png)
 
+Returning to the old constraints of Model 1: 
+- Area: A = 2m²
+- Tilt Angle: 0° ≤ θ ≤ 90°
+- Aspect Ratio: 0.5 ≤ r ≤ 4
 
+Will output the same results as Model 1:
 
-Model 2 will output the following results: 
+![](../Images/Model2-Results2.png)
 
+This demonstrates Model 2's ability to capture the optimal point and build a surf plot around varying constraints.
+
+However, Model 2 is limited because of it's fixed amount of initial guesses and the initial guess values. It cannot be applied efficiently to optimization problems outside of the given objective function and becomes less efficient the further the absolute limits are increased. Additionally, the objective function itself does not fully replicate all the variables that effect the energy output of a solar panel. 
+
+To improve on Model 2, a better algorithm is needed for estimating the initials guesses and repeating them across various parts of the grid.  Moreover, the objective function can be improved upon by adding a time variable or seasonal variable that provides better estimations of the maximum energy output from a solar panel. This provides great commercial applications. Lastly, now that the optimization problem is scalable the next venture is to design an app that can be utilized in industry for real-world applications. 

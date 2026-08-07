@@ -14,7 +14,7 @@
 ## MathWorks Workplace Challenge - Maximizing Solar Panel Output for a Fixed Area
 Hello, and welcome! This repo will carry out the joint project between Hector Valenzuela, Leo Kuraoka, and Ty Schoevers. Our motivation for this project stemmed from our team's collective desire in developing modern energy grid systems and a interest in creating tools for scalability of renewable energy technology. 
 
-## Table of Contents: 
+### Table of Contents: 
 - [Project Description](README.md)
 - [Model 1: Fixed Constraints](Model-1/Model-1.md)
 - [Model 2: Scalable Constraints](Model-2/Model-2.md)

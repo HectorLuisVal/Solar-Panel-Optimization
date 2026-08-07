@@ -20,10 +20,7 @@ Hello, and welcome! This repo will carry out the joint project between Hector Va
 - [Model 2: Scalable Constraints](https://github.com/HectorLuisVal/Solar-Panel-Optimization/blob/RTS61991-patch-1/README.md#model-2-scalable-constraints)
 
 # Project Description 
-In this project, we're using MATLAB to identify the best tilt angle and shape for a solar panel with a fixed area of 2 square meters. The aim is to maximize energy output of the solar panel given a variety of constraints. This project applies MATLAB's optimization workflow to a real-world engineering problems, then visualizes the results with a 3D surface plot.
-
-
-
+In this project, we're using MATLAB to identify the best tilt angle and shape for a solar panel with a fixed area of 2 square meters. The aim is to maximize energy output of the solar panel given a variety of constraints. This project applies MATLAB's [optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) to a real-world engineering problem, then visualizes the results with a 3D surface plot.
 
 ### Team/Roles
 - Ty Schoevers - Project Manager
@@ -34,7 +31,7 @@ In this project, we're using MATLAB to identify the best tilt angle and shape fo
 
 
 ## Project Steps: 
-For this project, the Solar Irradiance/Energy Production formula has been given below. 
+For this project, the Solar Irradiance/Energy Production formula has been given below:
 ![](Images/Equation_SolarPanel.png)
 
 To approach this problem recognize that the Solar Energy formula is dependent on:
@@ -43,28 +40,29 @@ To approach this problem recognize that the Solar Energy formula is dependent on
 - The available Area (A) for installation
 
 As the functions η(θ), sunIntensity(θ), & f(r) act non-linearly; finding the Maximum Energy Output under any constraints would be numerically intensive and non-intuitive. Through MATLAB's
-[problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) the process of finding the optimal Tilt Angle (θ) and Aspect Ratio (r) to deliver **Maximum Energy Output** can be simplified and somewhat automated.
+[problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) the process of finding the optimal Tilt Angle (θ) and Aspect Ratio (r) to deliver **Maximum Energy Output** can be simplified and somewhat automated. 
+
+
+
+In order to verify these results, constructing a 3D [surf](https://www.mathworks.com/help/matlab/ref/surf.html) plot of the Energy formula 
 
 #### Disclaimer: 
 For this project MATLAB R2026a was used to run the live script. To run the code the **Optimization Toolbox™** is needed. 
 
-
-
-
 # Model 1: Fixed Constraints
-E(θ,r) = A⋅
-A = 2 m² (fixed area)
+
+
+
+
+## How to Run 
+...
+
 ### Project Files
 - [Report](reports/SolarPanel_Final_Model1.pdf)
 - [MATLAB LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
-
-
-### How to Run 
-...
-
-
    
 ## Results
+Given the following 
 ![](Images/Surf-Plot-Model1.png)
 
 - Optimal tilt angle: 37.50°

@@ -2,7 +2,7 @@
 The purpose of this model is to find the maximum energy output when constraints can be varied. This allows for greater flexibility and practicality. 
 
 ### Instructions 
-#### Detailed Instructions on HOW TO CODE are in [Model-2 Report](Model-2/SolarPanel3_Final_Model2.pdf)
+#### Detailed Instructions on HOW TO CODE are in [Model-2 Report](SolarPanel3_Final_Model2.pdf)
 
 ### Step 1: Implement the Optimization Problem w/ *Sliders*
 By defining the optimization variables Tilt Angle (theta) and Aspect Ratio (r), the solver finds the highest energy output given the varying constraints of Tilt Angle and Aspect Ratio. 
@@ -21,8 +21,8 @@ Where to find the Control Panel:
 
 ![](../Images/StockPhoto_SolarPanel.png)
 ### Project Files Model 2
-- [Model-2 Report](Model-2/SolarPanel3_Final_Model2.pdf)
-- [Model-2 MATLAB LiveScript](Model-2/SolarPanel3_Final_Model2.mlx)
+- [Model-2 Report](SolarPanel3_Final_Model2.pdf)
+- [Model-2 MATLAB LiveScript](SolarPanel3_Final_Model2.mlx)
 
 ## Results
 

@@ -32,4 +32,42 @@ The objective function calculates the modeled energy output based on panel area,
 
 Note: The function "cosd" calculates values in degrees instead of radians, multiply by pi/180 inside the function converts the value into radians
 
+#### Step 2: Implement Optimization Function 
+The [optimization problem](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) solves for the **Maximum Energy** Output. 
+
+This sets up the optimization problem to search for the θ, r, and t that maximize energy output, within the bounds given above.
+
+By defining the optimization variables Tilt Angle (theta), Aspect Ratio (r) & time of day (t) the solver finds the highest energy output given the fixed constraints.
+
+In Model 3, the time of day variable (t), is added to the constraints. 
+- Constraint for Tilt Angle: 0° ≤ θ ≤ 90°
+- Constraint for Aspect Ratio: 0.5 ≤ r ≤ 4
+- Constraint for Time of Day: 6 ≤ t ≤ 18
+
+#### Step 3: Output the Results 
+**Plot E(θ, r, t)** to visualize the energy as a surface plot using *meshgrid* and [surf](https://www.mathworks.com/help/matlab/ref/surf.html). Plot the optimal tilt angle, aspect ratio & time of day corresponding to the maximum energy output onto the grid; the absolute maximum of the surface plot should align with the optimal point. Finally, print the optimal tilt angle, aspect ratio & time of day and the Maximum energy output.
+
+The surface plot shows energy output as a function of tilt angle and aspect ratio, with time held at its optimized value.
+Checklist: 
+- Create Grid Values for Tilt Angle and Aspect Ratio using meshgrid
+- Generate energy grid values that are dependent on θ, r & t.
+- Create the Surface Plot using the surf function
+- Add shading that illustrate the gradual change in energy output using shading and colorbar functions
+- Set Axis limits for the plot (they can be equal to or greater then constraints)
+- Label the plots
+- Plot the optimal point on the surface plot
+- Print Results
+
+#### Step 4: Plot Energy Output Over Time
+Shows how energy changes across the day once tilt angle and aspect ratio are locked at their optimal values.
+Checklist: 
+- Plot grid values using Time of day (t) and Energy Output values
+- Plot the optimal point on the surface plot
+- Set Axis limits for the plot (they can be equal to or greater then constraints)
+- Label the plots
+
+
+#### Step 5: Print the Results
+Print Results: 
+
 

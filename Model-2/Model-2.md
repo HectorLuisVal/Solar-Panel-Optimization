@@ -15,7 +15,7 @@ Utilizing the [control panel](https://www.mathworks.com/help/matlab/matlab_prog/
 - Absolute Min & Max limit of Aspect Ratio (r) using slider: 0 ≤ r ≤ 10  (can be changed the same way as above)
 
 Where to find the Control Panel:
-
+![](../Images/Control_Panel.png)
 
 ![](../Images/Problem-Surf-Plot-Model2.png)
 

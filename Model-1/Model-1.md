@@ -44,5 +44,5 @@ Following the Instruction/MATLAB LiveScript and using the given constraints shou
 - Optimal aspect ratio: 1.00
 - Maximum energy output: 1965.93 W/m^2
 
-![](Images/Surf-Plot-Model1.png)
+![](../Images/Surf-Plot-Model1.png)
 

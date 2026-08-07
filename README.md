@@ -18,6 +18,7 @@ Hello, and welcome! This repo will carry out the joint project between Hector Va
 - [Project Description](README.md)
 - [Model 1: Fixed Constraints](Model-1/Model-1.md)
 - [Model 2: Scalable Constraints](Model-2/Model-2.md)
+- [Model 3: Time Optimization Variable](Model-3/Model-3.md)
 - [Google Drive Folder](https://drive.google.com/drive/folders/1tbksG6ZGN-f3NW-npphn4tbyp6_-fJ5V?usp=sharing)
 
 # Project Description 
@@ -54,7 +55,7 @@ For this project MATLAB R2026a was used to run the live script. To run the code 
 ## Models: 
 - Model 1: [Fixed Constraints](Model-1/Model-1.md)
 - Model 2: [Scalable Constraints](Model-2/Model-2.md)
-
+- Model 3: [Time Optimization Variable](Model-3/Model-3.md)
 ## References
 - [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area)
 - [GitHub Repository Template](https://github.com/kathyz95/Classroom-Projects-Solution-Template/)

@@ -2,8 +2,8 @@
 
 The purpose of this model was to provide a way of finding the Maximum Energy Output given fixed environmental constraints
 
-### Instructions
-##### Detailed Instructions on HOW TO CODE are in [Model-1 Report](SolarPanel_Final_Model1.pdf)
+## Instructions
+### Detailed Instructions on HOW TO CODE are in [Model-1 Report](SolarPanel_Final_Model1.pdf)
 
 #### Step 1: Implement Optimization Problem 
 In order to get the same results as Model 1, the environmental **constraints have to be fixed** at the correct values. These constraints are based off the [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area) description. 

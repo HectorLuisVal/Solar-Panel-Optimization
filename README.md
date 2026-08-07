@@ -72,7 +72,7 @@ Following the MATLAB LiveScript and the listed constraints should give the follo
 
 
 # Model 2: Scalable Constraints 
-
+![](Images/StockPhoto_SolarPanel.png)
 
 ![](Images/Problem-Surf-Plot-Model2.png)
 

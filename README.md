@@ -34,7 +34,7 @@ For this project, the Solar Irradiance/Energy Production formula has been given 
 
 
 
-## Model 1: Fixed Constraints
+# Model 1: Fixed Constraints
 
 ### Project Files
 - [Report](reports/SolarPanel_Final_Model1.pdf)

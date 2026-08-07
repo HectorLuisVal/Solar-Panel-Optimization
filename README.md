@@ -42,24 +42,32 @@ To approach this problem recognize that the Solar Energy formula is dependent on
 As the functions η(θ), sunIntensity(θ), & f(r) act non-linearly; finding the Maximum Energy Output under any constraints would be numerically intensive and non-intuitive. Through MATLAB's
 [problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) the process of finding the optimal Tilt Angle (θ) and Aspect Ratio (r) to deliver **Maximum Energy Output** can be simplified. 
 
-Constructing a 3D [surf](https://www.mathworks.com/help/matlab/ref/surf.html) plot of the Energy formula can act as a form of verifying results
+Constructing a 3D [surf](https://www.mathworks.com/help/matlab/ref/surf.html) plot of the Energy formula E(θ,r) can act as a form of verifying results. As the Maximum point should align with the highest point of the surface plot. 
 
+![](Images/Surf-Plot-Model1.png)
 
+In this project, you will see the many ways our team have developed the optimization problem and improved on it. 
 
 #### Disclaimer: 
 For this project MATLAB R2026a was used to run the live script. To run the code the **Optimization Toolbox™** is needed. 
 
 # Model 1: Fixed Constraints
 
+The purpose of this model was to provide a way of finding the Maximum Energy Output given fixed environmental constraints
 
+### Instructions
+#### Detailed Instructions are in the [Model-1 Report](reports/SolarPanel_Final_Model1.pdf)
 
+In order to get the same results as Model 1, the environmental constraints have to be fixed. These constraints are based off the [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area) description. 
+- Constraint for Tilt Angle: 0° ≤ θ ≤ 90°
+- Constraint for Aspect Ratio: 0.5 ≤ r ≤ 4
 
-## How to Run 
-...
+Setting the upper and lower bounds correctly for the optimization variable is crucial for recieve the correct Maximum 
 
+  
 ### Project Files
-- [Report](reports/SolarPanel_Final_Model1.pdf)
-- [MATLAB LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
+- [Model-1 Report](reports/SolarPanel_Final_Model1.pdf)
+- [Model-1 MATLAB LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
    
 ## Results
 
@@ -72,16 +80,21 @@ Following the MATLAB LiveScript and the listed constraints should give the follo
 
 
 # Model 2: Scalable Constraints 
-![](Images/StockPhoto_SolarPanel.png)
+The purpose of this model is to find the maximum energy output when constraints can be varied. This allows for greater flexibility and practicality. 
+
+### Instructions 
+#### Detailed Instructions are in the reports folder
 
 ![](Images/Problem-Surf-Plot-Model2.png)
 
-### Project Files
-- [Report](reports/SolarPanel3_Final_Model2.pdf)
-- [MATLAB LiveScript](Livescript-Models/SolarPanel3_Final_Model2.mlx)
+![](Images/StockPhoto_SolarPanel.png)
+### Project Files Model 2
+- [Model-2 Report](reports/SolarPanel3_Final_Model2.pdf)
+- [Model-2 MATLAB LiveScript](Livescript-Models/SolarPanel3_Final_Model2.mlx)
 
-### How to Run
+
 ...
+
 
 ## Results
 

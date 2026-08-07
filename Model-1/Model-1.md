@@ -34,8 +34,8 @@ Store the solution to the optimization problem
 -  Print Results
 
 ### Project Files
-- [Model-1 Report](Model-1/SolarPanel_Final_Model1.pdf)
-- [Model-1 MATLAB LiveScript](Model-1/SolarPanel_Final_Model1.mlx)
+- [Model-1 Report](SolarPanel_Final_Model1.pdf)
+- [Model-1 MATLAB LiveScript](SolarPanel_Final_Model1.mlx)
    
 ## Results
 

@@ -15,9 +15,9 @@
 Hello, and welcome! This repo will carry out the joint project between Hector Valenzuela, Leo Kuraoka, and Ty Schoevers. Our motivation for this project stemmed from our team's collective desire in developing modern energy grid systems and a interest in creating tools for scalability of renewable energy technology. 
 
 ## Table of Contents: 
-- [Project Description](https://github.com/HectorLuisVal/Solar-Panel-Optimization/blob/RTS61991-patch-1/README.md#project-description)
-- [Model 1: Fixed Constraints](https://github.com/HectorLuisVal/Solar-Panel-Optimization/blob/RTS61991-patch-1/README.md#model-1-fixed-constraints)
-- [Model 2: Scalable Constraints](https://github.com/HectorLuisVal/Solar-Panel-Optimization/blob/RTS61991-patch-1/README.md#model-2-scalable-constraints)
+- [Project Description](README.md)
+- [Model 1: Fixed Constraints](Model-1/Model-1.md)
+- [Model 2: Scalable Constraints](Model-2/Model-2.md)
 
 # Project Description 
 In this project, we're using MATLAB to identify the best tilt angle and shape for a solar panel with a fixed area of 2 square meters. The aim is to maximize energy output of the solar panel given a variety of constraints. This project applies MATLAB's [optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) to a real-world engineering problem, then visualizes the results with a 3D surface plot.
@@ -51,88 +51,9 @@ In this project, you will see the many ways our team have developed the optimiza
 #### Disclaimer: 
 For this project MATLAB R2026a was used to run the live script. To run the code the **Optimization Toolbox™** is needed. 
 
-# Model 1: Fixed Constraints
-
-The purpose of this model was to provide a way of finding the Maximum Energy Output given fixed environmental constraints
-
-### Instructions
-##### Detailed Instructions on HOW TO CODE are in [Model-1 Report](reports/SolarPanel_Final_Model1.pdf)
-
-#### Step 1: Implement Optimization Problem 
-In order to get the same results as Model 1, the environmental **constraints have to be fixed** at the correct values. These constraints are based off the [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area) description. 
-- Constraint for Tilt Angle: 0° ≤ θ ≤ 90°
-- Constraint for Aspect Ratio: 0.5 ≤ r ≤ 4
-
-Setting up the upper and lower bounds correctly for the optimization variables is crucial for receiving the correct maximum energy output as the optimization solver searches within the upper and lower bounds
-
-#### Step 2: Defining the Objective Function
-Using the Energy Production Formula given above; begin defining the variables in terms of θ & r. 
-
-Important to note that the solver uses radian values instead of degrees. Multiplying inside the cosine function with pi/180 convert the theta values from degrees to radians.
-
-After creating the objective function and defining it, a initial guess value must be given. For Model-1 use values within the constraints to get the correct maximum energy output. 
-- initial_guess.theta = 45 
-- initial_guess.r = 2
-
-Store the solution to the optimization problem 
-
-#### Step 3: Output the Results
-- Create Grid Values for Tilt Angle and Aspect Ratio using meshgrid 
-- Generate energy grid values that are dependent on θ & r. 
-- Create the Surface Plot using the surf function
-- Add shading that illustrate the gradual change in energy output using shading and colorbar functions 
--  Set Axis limits for the plot (they can be equal to or greater then constraints)
--  Label the plots
--  Plot the optimal point on the surface plot
--  Print Results
-
-### Project Files
-- [Model-1 Report](reports/SolarPanel_Final_Model1.pdf)
-- [Model-1 MATLAB LiveScript](Livescript-Models/SolarPanel_Final_Model1.mlx)
-   
-## Results
-
-Following the Instruction/MATLAB LiveScript and using the given constraints should provide the following results: 
-- Optimal tilt angle: 37.50°
-- Optimal aspect ratio: 1.00
-- Maximum energy output: 1965.93 W/m^2
-
-![](Images/Surf-Plot-Model1.png)
-
-
-# Model 2: Scalable Constraints 
-The purpose of this model is to find the maximum energy output when constraints can be varied. This allows for greater flexibility and practicality. 
-
-### Instructions 
-#### Detailed Instructions on HOW TO CODE are in [Model-2 Report](reports/SolarPanel3_Final_Model2.pdf)
-
-### Step 1: Implement the Optimization Problem w/ *Sliders*
-By defining the optimization variables Tilt Angle (theta) and Aspect Ratio (r), the solver finds the highest energy output given the varying constraints of Tilt Angle and Aspect Ratio. 
-
-In Model 2, the environmental **Constraints are Scalable**. This provides a more practical usage of how to optimize for Maximum Energy Output. 
-
-Utilizing the [control panel](https://www.mathworks.com/help/matlab/matlab_prog/add-interactive-controls-to-a-live-script.html), sliders will be used to set the upper and lower bounds of each optimization variable. 
-
-- Absolute Min & Max limit for Tilt Angle () using slider: 0° ≤ θ ≤ 180 ° (this can be changed by right clicking on the slider and pressing 'Configure Control')
-- Absolute Min & Max limit of Aspect Ratio (r) using slider: 0 ≤ r ≤ 10  (can be changed the same way as above)
-
-Where to find the Control Panel:
-
-
-![](Images/Problem-Surf-Plot-Model2.png)
-
-![](Images/StockPhoto_SolarPanel.png)
-### Project Files Model 2
-- [Model-2 Report](reports/SolarPanel3_Final_Model2.pdf)
-- [Model-2 MATLAB LiveScript](Livescript-Models/SolarPanel3_Final_Model2.mlx)
-
-
-...
-
-
-## Results
-
-
+## Models: 
+- [Model 1: Fixed Constraints](Model-1/Model-1.md)
+- [Model 2: Scalable Constraints](Model-2/Model-2.md)
 
 ## References
 - [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area)
@@ -142,6 +63,7 @@ Where to find the Control Panel:
 - [problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359)
 - [Surface Plot](https://www.mathworks.com/help/matlab/ref/surf.html)
 - [Control Panel](https://www.mathworks.com/help/matlab/matlab_prog/add-interactive-controls-to-a-live-script.html)
+  
 # Contact 
 Ty Schoevers: 
 - Email: ty.schoevers@gmail.com 

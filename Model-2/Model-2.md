@@ -17,9 +17,9 @@ Utilizing the [control panel](https://www.mathworks.com/help/matlab/matlab_prog/
 Where to find the Control Panel:
 
 
-![](Images/Problem-Surf-Plot-Model2.png)
+![](../Images/Problem-Surf-Plot-Model2.png)
 
-![](Images/StockPhoto_SolarPanel.png)
+![](../Images/StockPhoto_SolarPanel.png)
 ### Project Files Model 2
 - [Model-2 Report](Model-2/SolarPanel3_Final_Model2.pdf)
 - [Model-2 MATLAB LiveScript](Model-2/SolarPanel3_Final_Model2.mlx)

@@ -59,11 +59,11 @@ The purpose of this model was to provide a way of finding the Maximum Energy Out
 ##### Detailed Instructions on HOW TO CODE are in [Model-1 Report](reports/SolarPanel_Final_Model1.pdf)
 
 #### Step 1: Implement Optimization Problem 
-In order to get the same results as Model 1, the environmental constraints have to be fixed. These constraints are based off the [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area) description. 
+In order to get the same results as Model 1, the environmental **constraints have to be fixed** at the correct values. These constraints are based off the [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area) description. 
 - Constraint for Tilt Angle: 0° ≤ θ ≤ 90°
 - Constraint for Aspect Ratio: 0.5 ≤ r ≤ 4
 
-Setting up the upper and lower bounds correctly for the optimization variables is crucial for receiving the correct maximum energy output as the optimization solver searche within the upper and lower bounds
+Setting up the upper and lower bounds correctly for the optimization variables is crucial for receiving the correct maximum energy output as the optimization solver searches within the upper and lower bounds
 
 #### Step 2: Defining the Objective Function
 Using the Energy Production Formula given above; begin defining the variables in terms of θ & r. 
@@ -104,7 +104,20 @@ Following the Instruction/MATLAB LiveScript and using the given constraints shou
 The purpose of this model is to find the maximum energy output when constraints can be varied. This allows for greater flexibility and practicality. 
 
 ### Instructions 
-#### Detailed Instructions are in the reports folder
+#### Detailed Instructions on HOW TO CODE are in [Model-2 Report](reports/SolarPanel3_Final_Model2.pdf)
+
+### Step 1: Implement the Optimization Problem w/ *Sliders*
+By defining the optimization variables Tilt Angle (theta) and Aspect Ratio (r), the solver finds the highest energy output given the varying constraints of Tilt Angle and Aspect Ratio. 
+
+In Model 2, the environmental **Constraints are Scalable**. This provides a more practical usage of how to optimize for Maximum Energy Output. 
+
+Utilizing the [control panel](https://www.mathworks.com/help/matlab/matlab_prog/add-interactive-controls-to-a-live-script.html), sliders will be used to set the upper and lower bounds of each optimization variable. 
+
+- Absolute Min & Max limit for Tilt Angle () using slider: 0° ≤ θ ≤ 180 ° (this can be changed by right clicking on the slider and pressing 'Configure Control')
+- Absolute Min & Max limit of Aspect Ratio (r) using slider: 0 ≤ r ≤ 10  (can be changed the same way as above)
+
+Where to find the Control Panel:
+
 
 ![](Images/Problem-Surf-Plot-Model2.png)
 

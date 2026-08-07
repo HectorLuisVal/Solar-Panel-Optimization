@@ -18,6 +18,7 @@ Hello, and welcome! This repo will carry out the joint project between Hector Va
 - [Project Description](README.md)
 - [Model 1: Fixed Constraints](Model-1/Model-1.md)
 - [Model 2: Scalable Constraints](Model-2/Model-2.md)
+- [Google Drive Folder](https://drive.google.com/drive/folders/1tbksG6ZGN-f3NW-npphn4tbyp6_-fJ5V?usp=sharing)
 
 # Project Description 
 In this project, we're using MATLAB to identify the best tilt angle and shape for a solar panel with a fixed area of 2 square meters. The aim is to maximize energy output of the solar panel given a variety of constraints. This project applies MATLAB's [optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) to a real-world engineering problem, then visualizes the results with a 3D surface plot.
@@ -28,7 +29,6 @@ In this project, we're using MATLAB to identify the best tilt angle and shape fo
 - Leo Kuraoka - Analysis & Visualization Lead
 
 [Team Agreement](reports/MathWorks_SolarPanel3_TeamAgreement.pdf)
-
 
 ## Project Steps: 
 For this project, the Solar Irradiance/Energy Production formula has been given below:
@@ -52,12 +52,13 @@ In this project, you will see the many ways our team have developed the optimiza
 For this project MATLAB R2026a was used to run the live script. To run the code the **Optimization Toolbox™** is needed. 
 
 ## Models: 
-- [Model 1: Fixed Constraints](Model-1/Model-1.md)
-- [Model 2: Scalable Constraints](Model-2/Model-2.md)
+- Model 1: [Fixed Constraints](Model-1/Model-1.md)
+- Model 2: [Scalable Constraints](Model-2/Model-2.md)
 
 ## References
 - [MathWorks GitHub Classroom Challenge Projects](https://github.com/mathworks/MATLAB-Simulink-Challenge-Project-Hub/tree/main/Classroom%20Challenge%20Projects/Projects/Maximizing%20Solar%20Panel%20Output%20for%20a%20Fixed%20Area)
 - [GitHub Repository Template](https://github.com/kathyz95/Classroom-Projects-Solution-Template/)
+- [Student Project Template](reports/SolarPanel_StudentProjectTemplate_Preview.pdf)
 - [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)
 - [Optimization Onramp](https://matlabacademy.mathworks.com/details/optimization-onramp/optim)
 - [problem-based optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359)

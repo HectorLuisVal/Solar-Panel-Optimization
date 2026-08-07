@@ -31,6 +31,7 @@ In this project, we're using MATLAB to identify the best tilt angle and shape fo
 
 [Team Agreement](reports/MathWorks_SolarPanel3_TeamAgreement.pdf)
 
+[Meeting Notes](reports/Meeting_Minutes_Notes.pdf)
 ## Project Steps: 
 For this project, the Solar Irradiance/Energy Production formula has been given below:
 ![](Images/Equation_SolarPanel.png)

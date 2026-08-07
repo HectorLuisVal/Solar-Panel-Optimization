@@ -53,6 +53,17 @@ For this project, the Solar Irradiance/Energy Production formula has been given 
 - Optimal aspect ratio: 1.00
 - Maximum energy output: 1965.93 W/m^2
 
+# Model 2: Scalable Constraints 
+
+### Project Files
+- [Report](reports/SolarPanel3_Final_Model2.pdf)
+- [MATLAB LiveScript](Livescript-Models/SolarPanel3_Final_Model2.mlx)
+
+### How to Run
+...
+
+## Results
+
 
 
 ## References

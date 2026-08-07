@@ -20,7 +20,7 @@ Hello, and welcome! This repo will carry out the joint project between Hector Va
 - [Model 2: Scalable Constraints](Model-2/Model-2.md)
 - [Model 3: Time Optimization Variable](Model-3/Model-3.md)
 - [Google Drive Folder](https://drive.google.com/drive/folders/1tbksG6ZGN-f3NW-npphn4tbyp6_-fJ5V?usp=sharing)
-
+- [Discord Server](https://discord.gg/ruPAswZEXz)
 # Project Description 
 In this project, we're using MATLAB to identify the best tilt angle and shape for a solar panel with a fixed area of 2 square meters. The aim is to maximize energy output of the solar panel given a variety of constraints. This project applies MATLAB's [optimization workflow](https://www.mathworks.com/help/releases/R2026a/optim/ug/problem-based-workflow.html?searchPort=57359) to a real-world engineering problem, then visualizes the results with a 3D surface plot.
 

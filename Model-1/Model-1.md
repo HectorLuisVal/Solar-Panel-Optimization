@@ -3,7 +3,7 @@
 The purpose of this model was to provide a way of finding the Maximum Energy Output given fixed environmental constraints
 
 ## Instructions
-### THE CODE IS IN [Model-1 Report](Model-1/SolarPanel_Final_Model1_Leo.pdf)
+### THE CODE IS IN [Model-1 Report](SolarPanel_Final_Model1_Leo.pdf)
 
 #### Step 1: Defining the Objective Function
 The **Energy function** E(θ,r) is the objective function for this optimization problem. It calculates how much energy a solar panel produces based on its **Tilt Angle (theta)** and **Aspect Ratio (r)**
@@ -44,8 +44,8 @@ Checklist:
 -  Print Results
 
 ### Project Files
-- [Model-1 Report](Model-1/SolarPanel_Final_Model1_Leo.pdf)
-- [Model-1 MATLAB LiveScript](Model-1/SolarPanel_Final_Model1_Leo.mlx)
+- [Model-1 Report](SolarPanel_Final_Model1_Leo.pdf)
+- [Model-1 MATLAB LiveScript](SolarPanel_Final_Model1_Leo.mlx)
    
 ## Results
 Through MATLAB's Optimization Toolbox™, Model 1 produced values consist of the maximum energy output. This can be seen through the optimal point plot aligning with the highest part of the surface plot representing the function  within the fixed constraints. 

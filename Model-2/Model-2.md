@@ -20,7 +20,7 @@ Where to find the Control Panel:
 ![](../Images/Problem-Surf-Plot-Model2.png)
 
 ![](../Images/StockPhoto_SolarPanel.png)
-### Project Files Model 2
+### Project Files
 - [Model-2 Report](SolarPanel3_Final_Model2.pdf)
 - [Model-2 MATLAB LiveScript](SolarPanel3_Final_Model2.mlx)
 

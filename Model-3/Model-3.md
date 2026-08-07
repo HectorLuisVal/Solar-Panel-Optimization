@@ -56,8 +56,8 @@ Checklist:
 - Set Axis limits for the plot (they can be equal to or greater then constraints)
 - Label the plots
 - Plot the optimal point on the surface plot
-- Print Results
 
+![](../Images/Model3-Results1.png)
 #### Step 4: Plot Energy Output Over Time
 Shows how energy changes across the day once tilt angle and aspect ratio are locked at their optimal values.
 Checklist: 
@@ -66,8 +66,21 @@ Checklist:
 - Set Axis limits for the plot (they can be equal to or greater then constraints)
 - Label the plots
 
+![](../Images/Model3-Results2.png)
 
 #### Step 5: Print the Results
-Print Results: 
+![](../Images/Model3-Results3.png)
+
+### Project Files:
 
 
+## Results
+#### Summary
+The optimizer lands on a tilt angle of about 37.5°, an aspect ratio right around 1, and a time of 12 PM.
+The tilt angle ends up between 30° and 45° because two different angle-dependent terms are pulling in slightly different directions panel efficiency peaks near 30°, but sunlight intensity peaks near 45°. The solver settles somewhere in between since that's where the product of the two is largest.
+Aspect ratio comes out to basically 1, which makes sense given the shape efficiency function is built to peak exactly at r = 1.
+Noon being optimal isn't surprising either the time factor is just a parabola centered on t = 12, so it's maxed out there by construction.
+#### Limitations
+This model is pretty simplified and skips a lot of what actually affects real solar panels — weather, cloud cover, seasonal changes, geographic location, temperature, shading from nearby trees or buildings, and solar azimuth are all left out. The time factor is also just a rough parabola rather than anything based on real irradiance data. On top of that, treating time as something we're "optimizing" is a little odd conceptually, since it's really an environmental condition and not a design choice for the panel itself.
+#### Next Steps
+Swapping the simplified time function for real solar irradiance data would be the most useful next step. Beyond that, the model could be extended to account for shading, seasonal sun angles, geographic location, or panel azimuth. It'd also be worth optimizing for total energy produced over a full day rather than just the single moment when instantaneous output is highest.

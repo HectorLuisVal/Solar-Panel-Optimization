@@ -1,7 +1,7 @@
 # Model 3: Time Optimization Variable
 This project uses MATLAB to figure out the optimal tilt angle, aspect ratio, and time of day for a solar panel with a fixed area of 2 m², using a problem-based optimization workflow to maximize a simplified energy output model.
 ## Instructions
-### THE CODE IS IN [MOdel-3 Report]()
+### THE CODE IS IN [Model-3 Report]()
 #### Break Down the Problem:
 Problem Statement:
 Find the tilt angle θ, aspect ratio r, and time of day t that maximize the modeled energy output of a solar panel with a fixed area of 2 m².
